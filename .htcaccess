@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www.sirmotec.com$
-RewriteRule ^(.*)$ http://www.sirmotec.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.sirmotec.com/$1 [R=301,L]
