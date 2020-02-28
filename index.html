@@ -72,6 +72,14 @@
 </head>
 
 <body>
+    <script runat="server">
+       private void Page_Load(object sender, System.EventArgs e){
+             if (Request.Url == "http://sirmotec.com"){
+                Response.Status = "301 Moved Permanently";
+                Response.AddHeader("Location","https://www.sirmotec.com");
+             }
+       }
+    </script>
 
     <h1 style="color:white;opacity:0.0;">SIRMOTEC - FIWARE, Smart City, GIS, Open Data, Open Source</h1>
 
