@@ -12,6 +12,8 @@
     gtag('config', 'UA-159321532-1');
   </script>
 
+  <pre>RewriteCond %{HTTP_HOST} *!^www*.sirmotec\.com [NC]RewriteRule (.*) http://www.sirmotec.com/http://www.sirmotec.com/$1 [L,R=301]</pre>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,8 +51,10 @@
   <meta name="Resource-type" content="Homepage">
   <meta name="DateCreated" content="Thu, 28 February 2019 00:00:00 GMT">
 
-  <meta name="Revisit-after" content="3 days">
   <meta name="robots" content="ALL">
+
+  <!-- Ajustar despues de modificaciones -->
+  <meta name="Revisit-after" content="3 days">
   <!--meta http-equiv="expires" content="0"/-->
   <meta http-equiv="cache-control" content="no-cache"/>
 
