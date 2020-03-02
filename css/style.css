@@ -1,0 +1,83 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #033E8C;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  color: rgba(3,62,140,1);
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  color: rgba(3,62,140,1);
+}
+
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; width: auto; }
+
+.icon {
+	i.circle {
+		font-size: 18px;
+		line-height: 42px;
+		color: #fff;
+		background-color: #033E8C;
+		text-align: center;
+	}
+	.circle {
+		position: relative;
+    margin-right: 160px;
+    margin-bottom: 160px;
+    float: left;
+		width: 42px;
+		height: 42px;
+		overflow: hidden;
+		left: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
