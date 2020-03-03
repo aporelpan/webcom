@@ -85,3 +85,13 @@ img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; width: aut
 .parafada{
   font-size: 1.2rem
 }
+
+.corpacho{
+ background-image: url("assets/map2.gif");
+ background-color: #cccccc;
+}
+
+.corpacho2{
+  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;
+  background-size: cover;
+}
